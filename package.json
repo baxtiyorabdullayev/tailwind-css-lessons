@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baxtiyorabdullayev/tailwind-css-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baxtiyorabdullayev/tailwind-css-lessons/issues"
+  },
+  "homepage": "https://github.com/baxtiyorabdullayev/tailwind-css-lessons#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
