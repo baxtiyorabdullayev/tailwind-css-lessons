@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "200px",
+          },
+          extend: {
+            colors: {
+              reddis: "#44A8B3",
+              surx: "red",
+              kavut: "blue",
+            },
+            spacing: {
+              6: "200px",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Lesson 17</title>
+  </head>
+  <body>
+    <!-- <div class="sm:bg-red-600 w-full h-screen"></div> -->
+    <p class="text-reddis">fgf</p>
+    <p class="text-surx">vfg</p>
+    <p class="text-2xl text-kavut">dedf</p>
+    <div class="p-6 bg-yellow-400 w-40">dv</div>
+  </body>
+</html>
